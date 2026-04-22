@@ -1,3 +1,15 @@
+/*
+Approach:
+
+Take array size and elements as input.
+Traverse the array while maintaining a running sum.
+If the running sum becomes negative, reset it to zero.
+Update maximum sum whenever a larger sum is found.
+Track the start and end indices of the maximum subarray.
+Print the subarray length, maximum sum, and elements.
+
+*/
+
 import java.util.*;
 
 public class kadanes {
