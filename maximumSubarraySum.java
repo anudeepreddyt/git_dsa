@@ -1,3 +1,18 @@
+/*
+Description:
+Finds the maximum sum of any contiguous subarray with a fixed size k and prints the highest sum.
+
+Approach:
+
+Take array size and elements as input.
+Read the required subarray size k.
+Traverse the array and generate all possible subarrays of size k.
+Calculate the sum of each subarray.
+Compare each sum with the current maximum sum.
+Print the maximum subarray sum.
+*/
+
+
 import java.util.*;
 
 public class maximumSubarraySum{
